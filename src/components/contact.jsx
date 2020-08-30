@@ -1,92 +1,29 @@
 import React, { Component } from "react";
-import { Grid, Cell,ListItem,List, ListItemContent } from "react-mdl";
+
 
 class Contacts extends Component {
   render() {
     return (
-      <div className="contact-body">
-        <Grid className="contact-grid">
-          <Cell col={6}>
-            <h2>Ankita Upadhyay</h2>
-            <img
-              src=""
-              alt="avatar"
-              style={{ height: "250px" }}
-            />
-            <hr></hr>
-            <p
-              className="contacts-paragraph"
-              style={{ overflow: "auto", height: "inherit", flex: 1 }}
-            >
-              My name is Ankita Upadhyay and I am currently a senior at the
-              University of California, Santa Cruz (UCSC) pursuing a Bachelor's
-              in Computer Science. I am interested in pursuing software
-              engineering related roles and have experience in web development,
-              namely front-end. I also have experience in technical writing,
-              database management, and product management. I am currently
-              looking for a full time job so feel free to check out my projects
-              and experience on Github and LinkedIn and contact me for job
-              opportunities!
-            </p>
-          </Cell>
-
-          <Cell col={6}>
-            <h2>Contact Me</h2>
-            <hr className="hr-2" />
-
-            <div className="contacts-list">
-              <List>
-                <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "25px", fontFamily: "Raleway" }}
-                  >
-                    <i className="fa fa-phone-square" aria-hidden="true" />
-                    408-718-7124
-                  </ListItemContent>
-                </ListItem>
-
-                <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "25px", fontFamily: "Raleway" }}
-                  >
-                    <i className="fa fa-envelope" aria-hidden="true" />
-                    aaupadhy@ucsc.edu
-                  </ListItemContent>
-                </ListItem>
-
-                <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "25px", fontFamily: "Raleway" }}
-                  >
-                    <i className="fa fa-github-square" aria-hidden="true" />
-                    <a
-                      href="https://github.com/Ankita-Upadhyay"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
-                      My Github
-                    </a>
-                  </ListItemContent>
-                </ListItem>
-
-                <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "25px", fontFamily: "Raleway" }}
-                  >
-                    <i className="fa fa-linkedin-square" aria-hidden="true" />
-                    <a
-                      href="https://www.linkedin.com/in/ankita-upadhyay-35a929104/>"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
-                      My LinkedIn
-                    </a>
-                  </ListItemContent>
-                </ListItem>
-              </List>
-            </div>
-          </Cell>
-        </Grid>
+      <div className="contacts-body">
+        <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@700&display=swap" rel="stylesheet"></link>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+        <h1 style={{fontSize:"70px"}}>Hi, I'm Abhishek. I design & build.</h1>
+        <h1 style={{}}>yes, I'm a Web Developer</h1>
+        <i class="fa fa-quote-left fa-3x fa-pull-left" aria-hidden="true"></i>
+        <h2>about me</h2>
+        <p>I love programming, writing , traveling and playing football.<br></br>
+          I'm enthusiast learner love to learn new tech stack and <b style={{fontSize:"20px"}}>&lt;code&gt;</b><br></br>
+          Currently in B.tech 4 year.
+          Feel free to check me out on.....  
+        </p>
+        <div className="contacts-list">
+         
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="https://www.linkedin.com/in/abhishek-shaw-8a093514a/" class="fa fa-linkedin"></a>
+        <a href="https://www.instagram.com/__.shaw.__/?hl=en" class="fa fa-instagram"></a>
+        <a href="https://join.skype.com/invite/WYLWDi9YGJEI" class="fa fa-skype"></a>
+        <a href="https://github.com/shawabhishek" class="fa fa-github"></a>
+        </div>
       </div>
     );
   }

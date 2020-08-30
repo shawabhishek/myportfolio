@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 class Resume extends Component{
     render(){
         return(
-            <div class="back1">
+            <div >
             <img
-            src="https://res.cloudinary.com/dkcjqlakt/image/upload/v1545874908/ankita_upadhyay_resume-1.jpg"
-            alt="resumeimg"
+            src="https://res.cloudinary.com/shawabhishek/image/upload/v1598681601/my-cv-page-001_jiaspc.jpg"
+            alt="resume_img"
             class="center2"
             />
             </div>

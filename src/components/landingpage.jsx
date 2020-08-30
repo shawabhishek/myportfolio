@@ -7,26 +7,37 @@ class LandingPage extends Component {
       <div style={{ width: "100%", margin: "auto" }}>
         <Grid className="landing-grid">
           <Cell col={12}>
+            <div className="img-row">
+            <div className="img-column">
             <img
-              src="https://img.favpng.com/0/15/12/computer-icons-avatar-male-user-profile-png-favpng-ycgruUsQBHhtGyGKfw7fWCtgN.jpg"
+              src="https://res.cloudinary.com/shawabhishek/image/upload/v1598726984/my_frnzzi.jpg"
               alt="avatar"
               className="avatar-img"
             />
+            </div>
+            <div className="img-column">
+            <img
+              src="https://res-console.cloudinary.com/shawabhishek/thumbnails/transform/v1/image/upload//v1598770617/ZXpnaWYuY29tLXdlYnAtdG8tanBnLXJlbW92ZWJnLXByZXZpZXdfY2Z0bG03/drilldown"
+              alt="qouat"
+              className="quote-img"
+            />
+            </div>
+            </div>
             <div className="banner-text">
               <center>
-                <h1>Abhishek Shaw</h1>
+                <h1 className="h1-landing">ABHISHEK SHAW</h1>
               </center>
               <hr />
               <center>
                 <p>
-                  HTML/CSS | JavaScript | Bootstrap | React | Python | Django{" "}
+                  HTML/CSS | JavaScript | NodeJS | React | C++ | MongoDB{" "}
                 </p>
               </center>
 
               <div className="social-links">
                 {/* LinkedIn */}
                 <a
-                  href="https://www.linkedin.com/in/ankita-upadhyay-35a929104/"
+                  href="https://www.linkedin.com/in/abhishek-shaw-8a093514a/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -35,7 +46,7 @@ class LandingPage extends Component {
 
                 {/* Github */}
                 <a
-                  href="https://github.com/Ankita-Upadhyay"
+                  href="https://github.com/shawabhishek"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -44,7 +55,7 @@ class LandingPage extends Component {
 
                 {/* Instagram */}
                 <a
-                  href="https://www.instagram.com/ankitakat97/?hl=en"
+                  href="https://www.instagram.com/__.shaw.__/?hl=en"
                   rel="noopener noreferrer"
                   target="_blank"
                 >

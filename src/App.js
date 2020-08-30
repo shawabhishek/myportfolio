@@ -6,27 +6,27 @@ import { Link } from "react-router-dom";
 class App extends Component {
   render() {
     return (
-      <div >
+<div >
         <Layout
           style={{
             background:
-              "url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover",
+              "url(https://res.cloudinary.com/shawabhishek/image/upload/v1598766862/wal_x1u9px.jpg) center / cover",
           }}
         >
-          <Header transparent title="Title" style={{ color: "white" }}>
-            <Navigation>
-              <Link to="/resume">Resume</Link>
-              <Link to="/project">Projects</Link>
-              <Link to="/aboutme">About Me</Link>
-              <Link to="/contact">Contact</Link>
+          <Header transparent title={<Link style={{ color: "white" ,fontSize:"20px"}} to="/">Abhishek's Portfolio</Link>}>
+            <Navigation className="nav-main">
+              <Link style={{fontSize:"16px"}} to="/">Home</Link>
+              <Link style={{fontSize:"16px"}} to="/resume">Resume</Link>
+              <Link style={{fontSize:"16px"}} to="/project">Projects</Link>
+              <Link style={{fontSize:"16px"}} to="/contact">About</Link>
             </Navigation>
           </Header>
-          <Drawer title="Title">
-            <Navigation>
-              <Link to="/resume">Resume</Link>
-              <Link to="/project">Projects</Link>
-              <Link to="/aboutme">About Me</Link>
-              <Link to="/contact">Contact</Link>
+          <Drawer title={<Link style={{ color: "black" ,fontSize:"20px"}} to="/">Abhishek's Portfolio</Link>}>
+            <Navigation className="nav-main" style={{color:"black",fontSize:"150%"}}>
+              <Link style={{fontSize:"16px"}} to="/">Home</Link>
+              <Link style={{fontSize:"16px"}} to="/resume">Resume</Link>
+              <Link style={{fontSize:"16px"}} to="/project">Projects</Link>
+              <Link style={{fontSize:"16px"}} to="/contact">About</Link>
             </Navigation>
           </Drawer>
           <Content>

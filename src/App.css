@@ -1,110 +1,158 @@
-.avatar-img{
-    height: 250px;
-    padding-top: 5em;
-    position: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
-    
-  }
-  
-  .landing-grid{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; 
-    text-align: center;
-    }
+@import url("https://fonts.googleapis.com/css2?family=BioRhyme:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=B612:wght@700&display=swap");
 
-  .banner-text {
-    background-color: black;
-    opacity: .8;
-    width: 75%;
-    margin: auto;
-    border-radius: 10px;
-  }
-  
-  .banner-text h1 {
-    font-size: 66px;
-    font-weight: bold;
-    color: white;
-  }
+.nav-main {
+  font-family: "Roboto", sans-serif;
+}
 
-  .banner-text hr {
-    border-top: 5px dotted white;
-    width: 50%;
-    margin: auto;
-  }
-  
-  .banner-text p {
-    color: white;
-    font-size: 20px;
-    padding: 1em;
-  }
+.img-row {
+  display: flex;
+}
 
-  .social-links{
-    display: flex;
-    justify-content: space-between;
-    width: 50%;
-    margin: auto;
-  }
-  
-  .social-links i{
-      color: white;
-      font-size: 5em;
-      padding: 8px;
-  }
+.img-column {
+  flex: 33.33%;
+}
 
-  .projects-grid{
-    display: flex;
-  }
+.avatar-img {
+  height: 300px;
+  border-radius: 10px;
+  margin-top: 70px;
+  margin-left: 110px;
+  box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, 0.4);
+}
 
-  .contact-body{
-    margin: auto;
-    background: grey;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    padding-top: 2em;
-  }
+.quote-img {
+  display: block;
+  height: 250px;
+  margin-top: 70px;
+}
 
-  .contact-grid{
-    text-align: center;
-    justify-content: center;
-    width: 80%;
-    height: 550px;
-    background: white;
-    color: black;
-    border: 2px solid red;
-    margin-bottom: 20px;
-  }
+.landing-grid {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-family: "Karla", sans-serif;
+}
+.h1-landing {
+  font-family: "Karla", sans-serif;
+}
 
-  .contacts-grid h2{
-    font-family: 'Merriweather', sans-serif ;
-  }
-  
-  .contacts-grid p{
-    font-family: 'Raleway', sans-serif ;
-    font-weight: bold;
-    width: 100%;
-    font-size: 0.7em;
-    scroll-behavior: auto;
-  } 
+.banner-text {
+  position: top;
+  font-family: "Karla", sans-serif;
+  background-color: black;
+  opacity: 0.8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
 
-  .center2{
-    width: 60%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 2em; 
-  }
-  
-  .back1{
-    background: #83a4d4;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
-  }
+.banner-text h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 0.7em;
+  margin-bottom: auto;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+
+.projects-grid {
+  display: flex;
+  font-family: "BioRhyme", serif;
+}
+.projects-main {
+  font-family: "BioRhyme", serif;
+}
+
+.center2 {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2em;
+}
+
+.contacts-body h1 {
+  margin-left: 200px;
+  font-family: "B612", sans-serif;
+}
+.contacts-body i {
+  margin-top: 20px;
+  margin-left: 200px;
+  padding-top: 5px;
+}
+.contacts-body h2 {
+  margin-top: 90px;
+  margin-left: 200px;
+}
+.contacts-body p {
+  margin-left: 270px;
+  font-family: "B612", sans-serif;
+  font-size: 15px;
+}
+
+.contacts-list {
+  margin-left: 550px;
+  margin-top: 45px;
+}
+.contacts-list .fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 7px;
+  border-radius: 50%;
+}
+.contacts-list .fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.contacts-list .fa-instagram {
+  background: #ce2c6f;
+  color: white;
+}
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+.fa-github {
+  background: #131618;
+  color: white;
+}
